@@ -1,3 +1,5 @@
 clc;
 clear;
-disp("updata");
+path='.\data\Data.mat ';
+Y=load(path);
+disp("size(Y)="+size(Y));
